@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Magic Is All Around Us"
-date:   2015-11-22 17:14:12
+date:   2015-11-28 11:14:12
 categories: rant
 ---
 
