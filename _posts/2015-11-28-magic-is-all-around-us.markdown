@@ -2,7 +2,7 @@
 layout: post
 title:  "Magic Is All Around Us"
 date:   2015-11-28 11:14:12
-categories: rant
+categories: learning
 ---
 
 There is an abundance of programming languages, and there a lot of opinions on which
