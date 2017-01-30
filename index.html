@@ -1,59 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="scripts/countdown.js"></script>
     <title>Mariia Kravtsova | Developer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:100,200,400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/typed.js"></script>
+    <script src="scripts/bundle.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
 
-  <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="img/logo.png" style="width:32px;height:32px;"></a>
+<body>
+
+    <div class="container-fluid fill light-white-font">
+        <div id="menu-button">
+            <i class="fa fa-bars fa-3x middle-salmon-font"></i>
+        </div>
+        <nav id="sidebar" class="hidden">
+            <ul class="nav nav-pills nav-stacked list-group">
+                <li class="text-uppercase"><a href="#home">Home</a></li>
+                <li class="text-uppercase"><a href="#about">About</a></li>
+                <li class="text-uppercase"><a href="#projects">Projects</a></li>
+                <li class="text-uppercase"><a href="http://mariiakravtsova.github.io/almanac/">Thoughts</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="container-fluid fill dark-gray-background">
+            <h1 class="center text-center">
+          <p>Hi, my name is <strong class="middle-salmon-font">Mariia Kravtsova</strong></p>
+          <p>and I'm <span class="element"></span></p>
+
+        </h1>
+        <p class="center text-center light-white-font">
+          <a class="middle-salmon-font" href="https://github.com/MariiaKravtsova" target="github">Github</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="middle-salmon-font" href="resume.pdf" target="linkedin">Resume</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a class="middle-salmon-font" href="https://twitter.com/mariiakravtsova" target="twitter">Twitter</a>
+        </p>
+        </div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      </ul>
+    <div id="about" class="container-fluid">
+        <h2 class="text-uppercase dark-gray-font">About me</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 col-sm-12">
+                    <p class="dark-gray-font text-left">
+                      I am a computer science student at Western Michigan University in Kalamazoo, Michigan. I work at TowerPinkster as an Information Systems Intern, where I have learned a lot about communication, networks, software support, security and creating inexpensive solutions. For my next adventure, I am ready to dive into the world of software development.
+                    <p class="dark-gray-font text-left">
+                      I am familiar with WMU's standard languages such as Java, C#, Ruby, JavaScript, R and C, and I have picked up Python in my explorations on the forefront of Artificial Intelligence. I am actively pursuing different aspects of computer language and applications in my personal projects because there are always cool new things to explore in the field of technology.
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <p class="dark-gray-font text-left">
+                      Three years ago, my business partner and I founded Stripe by Stripe, a technology consulting company for small businesses. I was responsible for design and testing of the projects, after which contractors were brought on board for implementation. From this experience I learned the importance of fostering client relationships and analyzing costs, and I honed my project management skills.
+                      The startup was sold in 2013.
+                    </p>
+                    <p class="dark-gray-font text-left">
+                        I'm a self-motivated worker, with a strong belief that bugs and errors are merely road signs, illuminating the path to my goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li><a href="http://mariiakravtsova.github.io/almanac">Blog</a></li>
-        <li><a href="https://github.com/MariiaKravtsova">Portfolio</a></li>
-        <li><a href="mailto:kravtsova.mariia@gmail.com">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <div id="projects" class="container-fluid light-white-font">
+        <h2 class="text-uppercase dark-gray-font">Projects</h2>
+        <div class="container dark-gray-font">
+            <div class="row">
 
-<div id = "about">
-  <p>
-    Hi, thanks for visiting! My name is Mariia Kravtsova, and I am a Computer Science student.
-    When I grow up I want to work in web development and artificial intelligence.
-    I love learning and building cool things, check out my Blog and Projects.
-    Feel free to email me if you want to talk or work on a project.
-  </p>
-</div>
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="https://github.com/MariiaKravtsova/momBot">
+                                <img class="img-responsive center-block" src="img/pi.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>momBot</h3>
+                            <p>rasberryPi mom, helps you be responsible</p>
+                        </div>
+                    </div>
+                </div>
 
-<div id = "countdown">
-  <p>
-    Days until my graduation:
-  </p>
-  <strong>Days: </strong><span id = "days"></span>
-  <strong>Hours: </strong><span id = "hours">00</span>
-  <strong>Minutes: </strong><span id = "minutes">00</span>
-  <strong>Seconds: </strong><span id = "seconds">00</span>
-</div>
-<script>
-  countdown('12/20/2017 08:24:24 AM', ['days', 'hours', 'minutes', 'seconds']);
-</script>
-  </body>
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="https://github.com/MariiaKravtsova/tysonBot">
+                                <img class="img-responsive center-block" src="img/tyson.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>tysonBot</h3>
+                            <p>Bot that tweets like Neil Degrasse Tyson</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="https://github.com/MariiaKravtsova/APOD">
+                                <img class="img-responsive center-block" src="img/apod.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>APOD</h3>
+                            <p>Download Astronomy Picture of the Day</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="https://github.com/MariiaKravtsova/handwrittingNN">
+                                <img class="img-responsive center-block" src="img/numbers.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>handwrittingNN</h3>
+                            <p>Neural network recognizes hand written numbers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="https://github.com/MariiaKravtsova/supernovas">
+                                <img class="img-responsive center-block" src="img/supernovae.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>supernovas</h3>
+                            <p>Database of Supernovas using Sails</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default fixed-width center-block">
+                        <div class="panel-body">
+                            <a href="http://kalamazoojuniorsymphony.com">
+                                <img class="img-responsive center-block" src="img/kjso.png" />
+                            </a>
+                        </div>
+                        <div class="panel-footer">
+                            <h3>Kalamazoo Junior Symphony</h3>
+                            <p>WordPress website for easy management</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
 </html>
