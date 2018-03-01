@@ -1,3 +1,3 @@
-# mariiakravtsova.github.io
+# mariakravtsova.github.io
 
 This is my portfolio, my resume, my face.
